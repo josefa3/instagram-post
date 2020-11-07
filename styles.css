@@ -1,12 +1,10 @@
 body {
-  height: 100vh;
-  width: 100vw;
-  padding: 0;
-  margin: 0;
+  background: black;
+}
+div {
   box-sizing: border-box;
-  position: static;
-
-.contene {
+}
+.container {
   background-color: white;
   width: 60vw;
   height: 90vh;
