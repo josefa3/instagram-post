@@ -1,76 +1,68 @@
 body {
-  background: rgb(85, 85, 85);
+  background: rgb(0, 0, 0);
 }
 div {
   box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .container {
   background-color: white;
-  width: 30vw;
+  width: 34vw;
   height: 100vh;
-  margin: auto
+  margin: auto;
 }
  
 header {
   display: flex;
   justify-content: space-between;
+  padding: 10px;
+  height: 6%;
+  /*background: lightcoral;*/
 }
 
-.titulo {
- width: 50%;
- height: 95%;
- display: inline-flex;
+header .titulo {
+ width: 95vw;
+ display: flex;
+ justify-content: flex-start;
 }
+.title-name {
+  /*background: lightpink;*/
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
 }
-h1, p  {
+.title-name h4, p {
+  margin: 0;
   padding: 0;
 }
-.titulo p {
-  margin: 0;
-  font-size: 0.7em; 
-}
 
-.fa-html5 {
-  padding: 2px;
-  display: flex;
-  width: 32px;
+.fab, .far {
+  font-size: 30px;
+  padding-right: 5px;
+  /*background: lime;*/
 }
-
-.menu {
-  display: flex;
-  width: 5%;
-  height:95%;
-  justify-content: center;
-  align-items: center;
-}
-
-.profile-icon i {
-  margin: 2px;
-  font-size: 3em;
+.fas {
+  font-size: 22px;
 }
 .post-image {
   background-image: url("https://picsum.photos/600/900?random=4");
   background-size: cover;
-  width: 100%;
-  height: 60%;
+  /*width: 100%;*/
+  height: 56%;
 }
 .actions {
-  margin: 5px:
-  height: 5%;
+  height: 6%;
   display: flex;
   justify-content: space-between;
+  margin: 10px;
 }
 .actions-left {
   display: flex;
   flex-direction: row;
-  font-size: 25px;
-  margin: 2px;
 }
-.actions-right {
-  font-size: 25px;
-  margin: 2px;
-}
-.text {
+
+.text p {
   text-align: justify;
   height: 30%;
+  margin: 13px;
 }
